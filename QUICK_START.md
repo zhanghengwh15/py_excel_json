@@ -1,119 +1,109 @@
-# 🚀 快速使用指南
+# 快速开始指南
 
-## 一键运行（推荐）
+## 🚀 5分钟快速上手
 
-### 方法一：使用启动脚本
+### 1. 安装依赖
+
 ```bash
-# 使用示例数据
-./run.sh
-
-# 使用自定义JSON文件
-./run.sh your_data.json
+pip install -r requirements.txt
 ```
 
-### 方法二：手动运行
+### 2. 功能选择
+
+#### 功能A：JSON菜单数据转Excel
+如果你有JSON格式的菜单数据需要转换为Excel：
+
 ```bash
-# 1. 激活虚拟环境
-source venv/bin/activate
+# 使用示例数据测试
+python json_to_excel.py
 
-# 2. 运行工具
-python json_to_excel.py                    # 使用示例数据
-python json_to_excel.py your_data.json     # 使用自定义文件
+# 使用自己的JSON文件
+python json_to_excel.py your_menu_data.json
 ```
 
-## 📋 功能说明
+#### 功能B：批量导出用户菜单权限
+如果你需要批量获取用户列表和对应的菜单权限：
 
-✅ **已实现功能**：
-- 解析JSON格式的菜单数据
-- 提取 `resourcesDisplayName` 作为菜单名称
-- 递归处理 `childResources` 子菜单
-- 生成Excel文件，包含"菜单名称"、"菜单层级"和"类型"三列
-- 菜单名称格式：显示完整路径（如："计划排产 - 基础配置 - 生产提前期"）
-- 类型识别：resourcesType=1显示为"菜单"，resourcesType=2显示为"功能"
-- Excel格式美化：标题加粗居中，不同类型用颜色区分
-- 文件名格式：`yyyyMMddHHmm.xlsx`（如：202412011430.xlsx）
-- 保持原始菜单顺序不变
+```bash
+# 第一步：配置参数（重要！）
+# 编辑 user_menu_export.py 文件，修改以下配置：
+# - token: 你的认证令牌
+# - userId: 你的用户ID
+# - orgId: 组织ID
+# - eid: 企业ID
+# - uid: 用户唯一标识
 
-## 📊 输出示例
-
-### 输入JSON结构
-```json
-[
-    {
-        "resourcesDisplayName": "系统管理",
-        "childResources": [
-            {
-                "resourcesDisplayName": "用户管理",
-                "childResources": [
-                    {
-                        "resourcesDisplayName": "用户列表",
-                        "childResources": []
-                    }
-                ]
-            }
-        ]
-    }
-]
+# 第二步：运行导出
+python user_menu_export.py
 ```
 
-### 输出Excel内容
-| 菜单名称 | 菜单层级 | 类型 |
-|----------|----------|------|
-| 计划排产 | 1 | 菜单 |
-| 计划排产 - 基础配置 | 2 | 菜单 |
-| 计划排产 - 基础配置 - 生产提前期 | 3 | 菜单 |
-| 计划排产 - 基础配置 - 窖池初始化 - 查询 | 4 | 功能 |
+## 📋 获取配置参数的方法
 
-## 🔧 自定义使用
+### 步骤1：登录系统
+在浏览器中登录你的管理系统
 
-### 在Python代码中使用
-```python
-from json_to_excel import JsonToExcelConverter
+### 步骤2：打开开发者工具
+- 按 F12 键
+- 或右键选择"检查"
 
-converter = JsonToExcelConverter()
+### 步骤3：找到Network选项卡
+点击开发者工具中的"Network"（网络）选项卡
 
-# 使用JSON文件
-excel_file = converter.convert_to_excel(json_file_path="menu_data.json")
+### 步骤4：执行用户管理操作
+在系统中执行一次用户管理相关的操作（如查看用户列表）
 
-# 使用JSON字符串
-json_data = '[...]'
-excel_file = converter.convert_to_excel(json_data=json_data)
-```
+### 步骤5：查看请求详情
+在Network选项卡中找到用户相关的API请求，点击查看：
+- **Headers**选项卡中的请求头包含：token、userId、orgId等
+- **Payload**选项卡中的请求体包含：eid、uid等
 
-## 📁 项目文件说明
+### 步骤6：复制参数
+将这些参数复制到 `user_menu_export.py` 文件的配置区域
 
-- `json_to_excel.py` - 主程序文件
-- `sample_menu_data.json` - 示例JSON数据
-- `requirements.txt` - Python依赖包
-- `run.sh` - 一键启动脚本
-- `README.md` - 详细说明文档
-- `venv/` - Python虚拟环境
-- `*.xlsx` - 生成的Excel文件
+## 📊 输出结果
 
-## ⚠️ 注意事项
+### JSON转Excel输出
+- 文件名：`yyyyMMddHHmm.xlsx`（如：202412011430.xlsx）
+- 内容：菜单名称、菜单层级、类型
 
-1. **JSON格式要求**：
-   - 必须包含 `resourcesDisplayName` 字段
-   - 子菜单通过 `childResources` 数组表示
-   - 文件编码必须是UTF-8
+### 用户权限导出输出  
+- 文件名：`用户菜单权限_yyyyMMddHHmm.xlsx`
+- 内容：用户名称、菜单名称、菜单层级、类型
+- 特色：相同用户的行会自动合并
+- 分页：自动处理大量用户数据，支持分页获取
+- 间隔：用户列表请求间隔200ms，菜单权限请求间隔300ms，确保API稳定性
 
-2. **运行环境**：
-   - Python 3.7+
-   - 需要安装pandas和openpyxl包
+## ❓ 常见问题
 
-3. **文件权限**：
-   - 确保有权限在项目根目录创建Excel文件
+### Q: token过期了怎么办？
+A: 重新登录系统，按照上述步骤获取新的token
 
-## 🆘 常见问题
+### Q: 为什么获取不到用户数据？
+A: 检查以下几点：
+1. token是否正确且有效
+2. 用户ID是否有权限访问
+3. 网络连接是否正常
+4. 配置参数是否完整
 
-**Q: 提示"command not found: pip"**
-A: 使用 `pip3` 或创建虚拟环境后使用 `pip`
+### Q: Excel文件在哪里？
+A: 生成的Excel文件保存在项目根目录中
 
-**Q: 提示"externally-managed-environment"**
-A: 使用提供的 `run.sh` 脚本，它会自动创建虚拟环境
+### Q: 可以修改输出格式吗？
+A: 可以编辑 `json_to_excel.py` 文件自定义输出格式
 
-**Q: Excel文件没有生成**
-A: 检查JSON格式是否正确，确保包含必要的字段
+## 🔧 故障排除
 
-**Q: 中文显示乱码**
-A: 确保JSON文件使用UTF-8编码保存 
+如果遇到问题，请检查：
+
+1. **Python版本**：确保使用Python 3.7+
+2. **依赖安装**：运行 `pip list` 查看是否安装了所需依赖
+3. **网络连接**：确保能够访问API接口
+4. **权限配置**：确保用户有足够的权限访问数据
+5. **参数配置**：检查所有必填参数是否正确配置
+
+## 📞 获取帮助
+
+如需更多帮助，请查看：
+- `README.md` - 详细文档
+- 代码注释 - 详细的函数说明
+- 控制台输出 - 错误信息和调试信息 
