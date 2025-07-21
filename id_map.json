@@ -1,0 +1,4853 @@
+[
+  {
+    "path": "计划排产",
+    "resourcesId": 20000530,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 40
+  },
+  {
+    "path": "计划排产/基础配置",
+    "resourcesId": 20000533,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 40
+  },
+  {
+    "path": "计划排产/基础配置/生产提前期",
+    "resourcesId": 20000838,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 100
+  },
+  {
+    "path": "计划排产/基础配置/窖池初始化",
+    "resourcesId": 20000812,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 110
+  },
+  {
+    "path": "计划排产/基础配置/窖池初始化/查询",
+    "resourcesId": 20001268,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "计划排产/基础配置/任务下发",
+    "resourcesId": 20000837,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 120
+  },
+  {
+    "path": "计划排产/生产备料",
+    "resourcesId": 20000806,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 50
+  },
+  {
+    "path": "计划排产/生产备料/备料配置(新)",
+    "resourcesId": 20001165,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 9
+  },
+  {
+    "path": "计划排产/生产备料/备料配置(新)/查看",
+    "resourcesId": 20001166,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "计划排产/生产备料/备料配置(新)/导入",
+    "resourcesId": 20001293,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "计划排产/生产备料/备料配置(新)/新增",
+    "resourcesId": 20001168,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "计划排产/生产备料/备料配置(新)/删除",
+    "resourcesId": 20001169,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "计划排产/生产备料/备料配置(新)/导出",
+    "resourcesId": 20001297,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "计划排产/生产备料/备料配置(新)/编辑",
+    "resourcesId": 20001167,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "计划排产/生产备料/备料计划",
+    "resourcesId": 20000978,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 11
+  },
+  {
+    "path": "计划排产/生产备料/备料计划/下发调拨",
+    "resourcesId": 20001079,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "计划排产/生产备料/备料计划/删除",
+    "resourcesId": 20001082,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "计划排产/生产备料/备料计划/新增",
+    "resourcesId": 20001081,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "计划排产/生产备料/备料计划/查询备料出库入库明细",
+    "resourcesId": 20001139,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "计划排产/生产备料/备料计划/撤回单据",
+    "resourcesId": 20001140,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "计划排产/生产备料/备料计划/查询",
+    "resourcesId": 20001080,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "计划排产/酿造计划",
+    "resourcesId": 20000979,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 52
+  },
+  {
+    "path": "计划排产/酿造计划/首轮计划",
+    "resourcesId": 20000981,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 10
+  },
+  {
+    "path": "计划排产/酿造计划/浓香酿造计划",
+    "resourcesId": 20000980,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 20
+  },
+  {
+    "path": "计划排产/制曲计划",
+    "resourcesId": 20000839,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 55
+  },
+  {
+    "path": "计划排产/制曲计划/曲粉计划",
+    "resourcesId": 20000840,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 10
+  },
+  {
+    "path": "计划排产/制曲计划/曲粉计划/工艺配置",
+    "resourcesId": 20001343,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "计划排产/粮糠计划",
+    "resourcesId": 20000813,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 60
+  },
+  {
+    "path": "计划排产/粮糠计划/粮粉生产计划",
+    "resourcesId": 20000814,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 10
+  },
+  {
+    "path": "计划排产/粮糠计划/蒸糠生产计划",
+    "resourcesId": 20000815,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 20
+  },
+  {
+    "path": "生产管理",
+    "resourcesId": 20000105,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 50
+  },
+  {
+    "path": "生产管理/生产任务",
+    "resourcesId": 20000186,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 10
+  },
+  {
+    "path": "生产管理/生产任务/归档生产任务",
+    "resourcesId": 20001099,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/确定新增/编辑自动创建任务方案",
+    "resourcesId": 20001101,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/确定新增/编辑总生产任务",
+    "resourcesId": 20001107,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/确定新增/编辑生产任务",
+    "resourcesId": 20001106,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/查看导入进度",
+    "resourcesId": 20001095,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/新建任务",
+    "resourcesId": 20001093,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/删除生产任务",
+    "resourcesId": 20001100,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/总任务维护",
+    "resourcesId": 20001105,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/归档总任务",
+    "resourcesId": 20001092,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/新增总任务",
+    "resourcesId": 20001091,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/查看生产任务",
+    "resourcesId": 20001097,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/新增自动创建任务方案",
+    "resourcesId": 20001103,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/编辑生产任务",
+    "resourcesId": 20001098,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/下发任务",
+    "resourcesId": 20001096,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/返回",
+    "resourcesId": 20001102,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/下载模板",
+    "resourcesId": 20001104,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产任务/批量导入生产任务",
+    "resourcesId": 20001094,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产执行",
+    "resourcesId": 20000151,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 20
+  },
+  {
+    "path": "生产管理/生产执行/重新开始",
+    "resourcesId": 20000661,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产执行/查询",
+    "resourcesId": 20001274,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/工单管理",
+    "resourcesId": 20000792,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 35
+  },
+  {
+    "path": "生产管理/工单管理/任务执行单",
+    "resourcesId": 20000793,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 40
+  },
+  {
+    "path": "生产管理/生产记录",
+    "resourcesId": 20000534,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 40
+  },
+  {
+    "path": "生产管理/生产记录/新增维修",
+    "resourcesId": 20001298,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/删除维修",
+    "resourcesId": 20001294,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/查询原因关联的设备列表",
+    "resourcesId": 20001292,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/投料维护",
+    "resourcesId": 20000348,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 10
+  },
+  {
+    "path": "生产管理/生产记录/投料维护/批量录入损耗",
+    "resourcesId": 20001253,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/损耗维护",
+    "resourcesId": 20000325,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 20
+  },
+  {
+    "path": "生产管理/生产记录/作业工序执行记录",
+    "resourcesId": 20000811,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 30
+  },
+  {
+    "path": "生产管理/生产记录/作业工序执行记录/删除",
+    "resourcesId": 20000994,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/作业工序执行记录/新增",
+    "resourcesId": 20000995,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/作业工序执行记录/导出",
+    "resourcesId": 20000991,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/作业工序执行记录/编辑",
+    "resourcesId": 20000993,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/作业工序执行记录/工序完工",
+    "resourcesId": 20000992,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/完工维护",
+    "resourcesId": 20000161,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 30
+  },
+  {
+    "path": "生产管理/生产记录/完工维护/编辑",
+    "resourcesId": 20000584,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/完工维护/查询",
+    "resourcesId": 20001340,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/工步执行记录",
+    "resourcesId": 20000810,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 40
+  },
+  {
+    "path": "生产管理/生产记录/工步执行记录/编辑",
+    "resourcesId": 20000999,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/工步执行记录/新增",
+    "resourcesId": 20000998,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/工步执行记录/删除",
+    "resourcesId": 20001000,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/工步执行记录/导出",
+    "resourcesId": 20001001,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/生产操作记录",
+    "resourcesId": 20000365,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 40
+  },
+  {
+    "path": "生产管理/生产记录/数据录入",
+    "resourcesId": 20000208,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 50
+  },
+  {
+    "path": "生产管理/生产记录/看糟配料记录",
+    "resourcesId": 20001170,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 200
+  },
+  {
+    "path": "生产管理/生产记录/看糟配料记录/获取动态字段",
+    "resourcesId": 20001308,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/看糟配料记录/导出",
+    "resourcesId": 20001301,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/看糟配料记录/感官评分明细列表",
+    "resourcesId": 20001303,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/看糟配料记录/保存动态字段",
+    "resourcesId": 20001306,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/生产记录/看糟配料记录/看糟配料记录分页",
+    "resourcesId": 20001304,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/统计分析",
+    "resourcesId": 20000195,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 50
+  },
+  {
+    "path": "生产管理/统计分析/生产进度",
+    "resourcesId": 20000290,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 10
+  },
+  {
+    "path": "生产管理/统计分析/质量统计",
+    "resourcesId": 20000197,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 30
+  },
+  {
+    "path": "生产管理/统计分析/质量统计/查询",
+    "resourcesId": 20000467,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/统计分析/质量统计/导出",
+    "resourcesId": 20000468,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/统计分析/物料统计",
+    "resourcesId": 20000202,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 40
+  },
+  {
+    "path": "生产管理/统计分析/物料统计/查询",
+    "resourcesId": 20000469,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/统计分析/物料统计/导出",
+    "resourcesId": 20000470,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/统计分析/班组统计",
+    "resourcesId": 20000204,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 50
+  },
+  {
+    "path": "生产管理/统计分析/班组统计/查询",
+    "resourcesId": 20000473,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/统计分析/班组统计/导出",
+    "resourcesId": 20000474,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置",
+    "resourcesId": 20000535,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 60
+  },
+  {
+    "path": "生产管理/基础配置/自动报工配置",
+    "resourcesId": 20001125,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "生产管理/基础配置/自动报工配置/更新自动报工配置",
+    "resourcesId": 20001130,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/自动报工配置/获取自动报工配置分页",
+    "resourcesId": 20001128,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/自动报工配置/新增自动报工配置",
+    "resourcesId": 20001129,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/自动报工配置/删除自动报工配置",
+    "resourcesId": 20001131,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/生产任务模板",
+    "resourcesId": 20000193,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 10
+  },
+  {
+    "path": "生产管理/基础配置/生产操作配置",
+    "resourcesId": 20000364,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 20
+  },
+  {
+    "path": "生产管理/基础配置/设备路由配置",
+    "resourcesId": 20001388,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 61
+  },
+  {
+    "path": "生产管理/基础配置/设备路由配置/查看",
+    "resourcesId": 20001390,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/设备路由配置/新增",
+    "resourcesId": 20001389,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/设备路由配置/导入",
+    "resourcesId": 20001392,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/设备路由配置/删除",
+    "resourcesId": 20001391,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/设备路由配置/导出",
+    "resourcesId": 20001394,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/设备路由配置/编辑",
+    "resourcesId": 20001393,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺参数",
+    "resourcesId": 20000791,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 79
+  },
+  {
+    "path": "生产管理/基础配置/工艺参数(舍得新)",
+    "resourcesId": 20001172,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 79
+  },
+  {
+    "path": "生产管理/基础配置/工艺参数(舍得新)/复制",
+    "resourcesId": 20001177,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺参数(舍得新)/删除",
+    "resourcesId": 20001178,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺参数(舍得新)/导出",
+    "resourcesId": 20001173,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺参数(舍得新)/导入",
+    "resourcesId": 20001174,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺参数(舍得新)/新增",
+    "resourcesId": 20001175,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺参数(舍得新)/查看",
+    "resourcesId": 20001179,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺参数(舍得新)/编辑",
+    "resourcesId": 20001176,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺配方单",
+    "resourcesId": 20000804,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 80
+  },
+  {
+    "path": "生产管理/基础配置/工艺配方单/复制",
+    "resourcesId": 20001007,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺配方单/查询",
+    "resourcesId": 20001083,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺配方单/新增",
+    "resourcesId": 20001002,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺配方单/删除",
+    "resourcesId": 20001004,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺配方单/启用/停用",
+    "resourcesId": 20001008,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺配方单/导入",
+    "resourcesId": 20001006,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺配方单/导出",
+    "resourcesId": 20001005,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺配方单/编辑",
+    "resourcesId": 20001003,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/基础配置/工艺配方单导入",
+    "resourcesId": 20000803,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 90
+  },
+  {
+    "path": "生产管理/基础配置/研发项目绑定",
+    "resourcesId": 20000988,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 110
+  },
+  {
+    "path": "生产管理/曲房台账",
+    "resourcesId": 20000790,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 80
+  },
+  {
+    "path": "生产管理/窖池管理",
+    "resourcesId": 20000788,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 90
+  },
+  {
+    "path": "生产管理/窖池管理/窖池台账",
+    "resourcesId": 20000789,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 10
+  },
+  {
+    "path": "生产管理/窖池管理/窖池台账/编辑",
+    "resourcesId": 20001089,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/窖池管理/窖池台账/查询",
+    "resourcesId": 20001084,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/窖池管理/窖池台账/获取表格字段配置",
+    "resourcesId": 20001266,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/窖池管理/窖池台账/导入历史数据",
+    "resourcesId": 20001088,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/窖池管理/窖池台账/导入",
+    "resourcesId": 20001086,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/窖池管理/窖池台账/新增",
+    "resourcesId": 20001085,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/窖池管理/窖池台账/导出",
+    "resourcesId": 20001087,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/窖池管理/窖池台账/删除",
+    "resourcesId": 20001090,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/窖池管理/窖池台账导入",
+    "resourcesId": 20000802,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 20
+  },
+  {
+    "path": "生产管理/窖池管理/窖池发酵记录",
+    "resourcesId": 20001124,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 60
+  },
+  {
+    "path": "生产管理/窖池管理/窖池发酵记录/导出",
+    "resourcesId": 20001127,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/窖池管理/窖池发酵记录/查询",
+    "resourcesId": 20001126,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理",
+    "resourcesId": 20000155,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 60
+  },
+  {
+    "path": "质量管理/来料检验",
+    "resourcesId": 20000156,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 10
+  },
+  {
+    "path": "质量管理/来料检验/检验记录-复检",
+    "resourcesId": 20000907,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/检验任务-新增",
+    "resourcesId": 20000917,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/检验记录-新增",
+    "resourcesId": 20000905,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/检验记录-导出",
+    "resourcesId": 20000906,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/检验记录-编辑",
+    "resourcesId": 20000909,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/检验记录",
+    "resourcesId": 20000903,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/检验记录-检验",
+    "resourcesId": 20000908,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/检验记录-查看",
+    "resourcesId": 20000910,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/检验记录-删除",
+    "resourcesId": 20000911,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/检验记录-报告",
+    "resourcesId": 20000912,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/来料列表字段配置",
+    "resourcesId": 20001123,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/检验任务 ",
+    "resourcesId": 20000904,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/检验任务-删除",
+    "resourcesId": 20000918,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验",
+    "resourcesId": 20000221,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 20
+  },
+  {
+    "path": "质量管理/仓库检验/检验记录-编辑",
+    "resourcesId": 20000900,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/检验任务",
+    "resourcesId": 20000895,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/检验记录-复制",
+    "resourcesId": 20000898,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/检验记录-导出",
+    "resourcesId": 20000897,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/检验任务-新增",
+    "resourcesId": 20000915,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/检验记录",
+    "resourcesId": 20000894,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/检验记录-查看",
+    "resourcesId": 20000901,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/检验任务-删除",
+    "resourcesId": 20000916,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/检验记录-检验",
+    "resourcesId": 20000899,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/检验记录-删除",
+    "resourcesId": 20000902,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/检验记录-新增",
+    "resourcesId": 20000896,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验",
+    "resourcesId": 20000536,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 30
+  },
+  {
+    "path": "质量管理/产品检验/来料检验审核",
+    "resourcesId": 20000846,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "质量管理/产品检验/仓库检验审核",
+    "resourcesId": 20000847,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 4
+  },
+  {
+    "path": "质量管理/产品检验/过程检验",
+    "resourcesId": 20000157,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 20
+  },
+  {
+    "path": "质量管理/产品检验/过程检验/检验记录-查看 ",
+    "resourcesId": 20000893,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/过程检验/检验任务-过程检验计划",
+    "resourcesId": 20000914,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/过程检验/删除优化",
+    "resourcesId": 20001357,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/过程检验/检验记录-导出 ",
+    "resourcesId": 20000891,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/过程检验/检验记录-检验 ",
+    "resourcesId": 20000892,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/过程检验/检验任务-新增",
+    "resourcesId": 20000913,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/过程检验/检验记录-新增",
+    "resourcesId": 20000598,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/过程检验/取样设备",
+    "resourcesId": 20001400,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/过程检验/检验任务-删除",
+    "resourcesId": 20000602,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/过程检验/检验记录 ",
+    "resourcesId": 20000889,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/过程检验/检验任务 ",
+    "resourcesId": 20000890,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/过程检验/检验记录-复制",
+    "resourcesId": 20000599,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/过程检验/检验记录-编辑",
+    "resourcesId": 20000600,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/过程检验/检验记录-删除",
+    "resourcesId": 20000601,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/过程检验审核",
+    "resourcesId": 20000767,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 51
+  },
+  {
+    "path": "质量管理/质量月度评审",
+    "resourcesId": 20001110,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 41
+  },
+  {
+    "path": "质量管理/基础配置",
+    "resourcesId": 20000236,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 50
+  },
+  {
+    "path": "质量管理/基础配置/来料检验标准",
+    "resourcesId": 20000246,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 10
+  },
+  {
+    "path": "质量管理/基础配置/仓库检验标准",
+    "resourcesId": 20000247,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 20
+  },
+  {
+    "path": "质量管理/基础配置/产品检验标准",
+    "resourcesId": 20000248,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 30
+  },
+  {
+    "path": "质量管理/基础配置/产品检验标准/打分配置",
+    "resourcesId": 20001360,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/基础配置/质量报告方案",
+    "resourcesId": 20000510,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 50
+  },
+  {
+    "path": "质量管理/基础数据",
+    "resourcesId": 20000537,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 60
+  },
+  {
+    "path": "质量管理/基础数据/取样地点",
+    "resourcesId": 20000843,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "质量管理/基础数据/检验单号配置",
+    "resourcesId": 20000844,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 2
+  },
+  {
+    "path": "质量管理/基础数据/检验项目",
+    "resourcesId": 20000245,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 60
+  },
+  {
+    "path": "质量管理/基础数据/检验室",
+    "resourcesId": 20000558,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1000
+  },
+  {
+    "path": "仓库管理",
+    "resourcesId": 20000214,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 70
+  },
+  {
+    "path": "仓库管理/单据明细导入",
+    "resourcesId": 20001318,
+    "resourcesType": 2,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/通过岗位信息查询企业下的用户信息",
+    "resourcesId": 20001320,
+    "resourcesType": 2,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/获取判断单据结束可编辑的恢复标识",
+    "resourcesId": 20001158,
+    "resourcesType": 2,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库存查询",
+    "resourcesId": 20000761,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库存查询/库存概览",
+    "resourcesId": 20000786,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库存查询/库存概览/修改库存特征值",
+    "resourcesId": 20001239,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库存查询/库存概览/判断库存特征值是否存在某些字段",
+    "resourcesId": 20001238,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库存查询/库存概览/获取库存特征值修改记录分页",
+    "resourcesId": 20001241,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库存查询/库存概览/获取汇总结果数量",
+    "resourcesId": 20001313,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库存查询/库存概览/导出库存特征值修改记录",
+    "resourcesId": 20001240,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库存查询/库存流水",
+    "resourcesId": 20001009,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "仓库管理/库存查询/库位查看",
+    "resourcesId": 20000762,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "仓库管理/库存查询/库存明细",
+    "resourcesId": 20000763,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 2
+  },
+  {
+    "path": "仓库管理/库存查询/库存明细/打印",
+    "resourcesId": 20001271,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库存查询/库存明细/物料转换确认",
+    "resourcesId": 20001321,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库存查询/库存明细/查询",
+    "resourcesId": 20001316,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库存查询/库存明细/库存下钻查询",
+    "resourcesId": 20001233,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/更新单据的财务归属日期",
+    "resourcesId": 20001159,
+    "resourcesType": 2,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/单据模版获取",
+    "resourcesId": 20001319,
+    "resourcesType": 2,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/财务配置查看详情",
+    "resourcesId": 20001157,
+    "resourcesType": 2,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理",
+    "resourcesId": 20000739,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 1
+  },
+  {
+    "path": "仓库管理/出库管理/出库前置 - 删除",
+    "resourcesId": 20001052,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 拣货",
+    "resourcesId": 20001022,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 发货",
+    "resourcesId": 20001023,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库前置 - 编辑",
+    "resourcesId": 20001076,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 编辑",
+    "resourcesId": 20001020,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 新增出库明细导出模板",
+    "resourcesId": 20001353,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库前置 - 审核",
+    "resourcesId": 20001048,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 获取出库明细导出模板分页",
+    "resourcesId": 20001351,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 根据id删除模板",
+    "resourcesId": 20001355,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 复制",
+    "resourcesId": 20001347,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 审核",
+    "resourcesId": 20001021,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 删除",
+    "resourcesId": 20001027,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 获取通用出库明细导出模板",
+    "resourcesId": 20001352,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 生成拣货",
+    "resourcesId": 20001075,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/导出明细",
+    "resourcesId": 20001231,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库前置 - 关联单据",
+    "resourcesId": 20001049,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库前置 - 撤回",
+    "resourcesId": 20001050,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库前置 - 关单",
+    "resourcesId": 20001051,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 关单",
+    "resourcesId": 20001074,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/导出模板配置",
+    "resourcesId": 20001348,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 撤回",
+    "resourcesId": 20001024,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 根据id下载模板",
+    "resourcesId": 20001349,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/拣货任务",
+    "resourcesId": 20000741,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "仓库管理/出库管理/拣货任务/凯丰扫码定制 - 扫码校验客户",
+    "resourcesId": 20001323,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/拣货任务/PC撤回拣货任务",
+    "resourcesId": 20001219,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/拣货任务/PC获取撤回页面的拣货明细",
+    "resourcesId": 20001217,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/拣货任务/增加拣货测试，不要动",
+    "resourcesId": 20001162,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/拣货任务/增加拣货",
+    "resourcesId": 20001161,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/拣货任务/PC判断拣货任务是否能撤回",
+    "resourcesId": 20001223,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理",
+    "resourcesId": 20000740,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 2
+  },
+  {
+    "path": "仓库管理/入库管理/导出入库明细",
+    "resourcesId": 20001229,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 删除",
+    "resourcesId": 20001019,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/导入明细",
+    "resourcesId": 20001225,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库前置 - 编辑",
+    "resourcesId": 20001041,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 编辑",
+    "resourcesId": 20001013,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/获取导入模板",
+    "resourcesId": 20001228,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 复制",
+    "resourcesId": 20001346,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 收货",
+    "resourcesId": 20001015,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库前置 - 关联单据",
+    "resourcesId": 20001043,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库前置 - 审核",
+    "resourcesId": 20001042,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/导入明细",
+    "resourcesId": 20001224,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 撤回",
+    "resourcesId": 20001017,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库前置 - 删除",
+    "resourcesId": 20001046,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库前置 - 关单",
+    "resourcesId": 20001045,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/获取导入模板",
+    "resourcesId": 20001226,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 上架",
+    "resourcesId": 20001016,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库前置 - 撤回",
+    "resourcesId": 20001044,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/导出入库明细",
+    "resourcesId": 20001230,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 关单",
+    "resourcesId": 20001018,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 审核",
+    "resourcesId": 20001014,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/收货任务",
+    "resourcesId": 20000743,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "仓库管理/入库管理/收货任务/管道流量计列表",
+    "resourcesId": 20001287,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/收货任务/收货任务-新增快速收货",
+    "resourcesId": 20000750,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理",
+    "resourcesId": 20000758,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 3
+  },
+  {
+    "path": "仓库管理/库内管理/调拨 - 撤回",
+    "resourcesId": 20001037,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/调拨前置 - 撤回",
+    "resourcesId": 20001056,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/调拨前置 - 关单",
+    "resourcesId": 20001057,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/调拨 - 删除",
+    "resourcesId": 20001040,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/调拨 - 查看出库",
+    "resourcesId": 20001038,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/调拨 - 关单",
+    "resourcesId": 20001034,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/盘点 - 确认",
+    "resourcesId": 20001031,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/盘点 - 编辑",
+    "resourcesId": 20001028,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/盘点 - 审核",
+    "resourcesId": 20001029,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/盘点 - 关单",
+    "resourcesId": 20001033,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/调拨 - 编辑",
+    "resourcesId": 20001036,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/调拨前置 - 审核",
+    "resourcesId": 20001054,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/盘点 - 盘点",
+    "resourcesId": 20001032,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/调拨 - 查看入库",
+    "resourcesId": 20001039,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/调拨 - 审核",
+    "resourcesId": 20001035,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/调拨 - 复制",
+    "resourcesId": 20001350,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/调拨前置 - 删除",
+    "resourcesId": 20001058,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/调拨前置 - 关联单据",
+    "resourcesId": 20001055,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/盘点 - 撤回",
+    "resourcesId": 20001030,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/调拨前置 - 编辑",
+    "resourcesId": 20001053,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/库存初始化",
+    "resourcesId": 20000759,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "仓库管理/库内管理/库存初始化/导入记录",
+    "resourcesId": 20001212,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/库存初始化/物料初始化导入",
+    "resourcesId": 20001211,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/库存初始化/物料初始化模板下载",
+    "resourcesId": 20001210,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/盘点任务",
+    "resourcesId": 20000982,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "仓库管理/库内管理/移库任务",
+    "resourcesId": 20000760,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 2
+  },
+  {
+    "path": "仓库管理/库内管理/调拨差异",
+    "resourcesId": 20001011,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 10
+  },
+  {
+    "path": "仓库管理/厂内物流",
+    "resourcesId": 20000824,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 4
+  },
+  {
+    "path": "仓库管理/厂内物流/地磅平台",
+    "resourcesId": 20000828,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "仓库管理/基础配置",
+    "resourcesId": 20000502,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 130
+  },
+  {
+    "path": "仓库管理/基础配置/字段配置",
+    "resourcesId": 20000772,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "仓库管理/基础配置/安全库存（新）",
+    "resourcesId": 20000779,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 3
+  },
+  {
+    "path": "仓库管理/基础配置/仓库配置",
+    "resourcesId": 20000369,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 10
+  },
+  {
+    "path": "仓库管理/基础配置/库位配置",
+    "resourcesId": 20000370,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 20
+  },
+  {
+    "path": "仓库管理/基础配置/审核配置",
+    "resourcesId": 20000505,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 30
+  },
+  {
+    "path": "仓库管理/基础配置/单据配置（新）",
+    "resourcesId": 20000738,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 60
+  },
+  {
+    "path": "仓库管理/基础配置/单据配置（新）/获取出库明细查看配置",
+    "resourcesId": 20001315,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/基础配置/库存特征值",
+    "resourcesId": 20000776,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 70
+  },
+  {
+    "path": "仓库管理/基础配置/原因维护",
+    "resourcesId": 20000756,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 70
+  },
+  {
+    "path": "仓库管理/基础配置/车辆配置",
+    "resourcesId": 20000794,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 80
+  },
+  {
+    "path": "仓库管理/基础配置/策略配置",
+    "resourcesId": 20001108,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 100
+  },
+  {
+    "path": "仓库管理/基础配置/财务配置",
+    "resourcesId": 20001155,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 140
+  },
+  {
+    "path": "仓库管理/基础配置/财务配置/历史财务日期分页",
+    "resourcesId": 20001359,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/基础配置/财务配置/财务配置新增编辑",
+    "resourcesId": 20001156,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/期初库存",
+    "resourcesId": 20001376,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 200
+  },
+  {
+    "path": "仓库管理/期初库存/期初库存删除",
+    "resourcesId": 20001382,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/期初库存/期初库存导出记录",
+    "resourcesId": 20001378,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/期初库存/期初库存分页",
+    "resourcesId": 20001377,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/期初库存/期初库存导出",
+    "resourcesId": 20001380,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/期初库存/期初库存导入记录",
+    "resourcesId": 20001383,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/期初库存/期初库存模板下载",
+    "resourcesId": 20001384,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/期初库存/期初库存导入",
+    "resourcesId": 20001379,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/期初库存/期初库存详情查看",
+    "resourcesId": 20001381,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "能源管理",
+    "resourcesId": 20000052,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 90
+  },
+  {
+    "path": "能源管理/能源计量与输配",
+    "resourcesId": 20000543,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 20
+  },
+  {
+    "path": "能源管理/能源计量与输配/全厂计量",
+    "resourcesId": 20000064,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 10
+  },
+  {
+    "path": "能源管理/能源计量与输配/全厂计量/搜索",
+    "resourcesId": 20000464,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "能源管理/能源利用分析",
+    "resourcesId": 20000544,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 30
+  },
+  {
+    "path": "能源管理/能源利用分析/智能抄表",
+    "resourcesId": 20000078,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 40
+  },
+  {
+    "path": "能源管理/能源利用分析/能源数据录入",
+    "resourcesId": 20000079,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 60
+  },
+  {
+    "path": "告警监测",
+    "resourcesId": 20000117,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 100
+  },
+  {
+    "path": "告警监测/窖池温度",
+    "resourcesId": 20001077,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 240
+  },
+  {
+    "path": "告警监测/曲房温度",
+    "resourcesId": 20001078,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 250
+  },
+  {
+    "path": "生产追溯",
+    "resourcesId": 20000326,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 120
+  },
+  {
+    "path": "生产追溯/批次追溯",
+    "resourcesId": 20001112,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 2
+  },
+  {
+    "path": "数据工具",
+    "resourcesId": 20000048,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 130
+  },
+  {
+    "path": "数据工具/数据分析",
+    "resourcesId": 20000732,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 6
+  },
+  {
+    "path": "数据工具/数据导出",
+    "resourcesId": 20000355,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 60
+  },
+  {
+    "path": "报表平台（新）",
+    "resourcesId": 20000532,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 140
+  },
+  {
+    "path": "报表平台（新）/指标库",
+    "resourcesId": 20000518,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 10
+  },
+  {
+    "path": "报表平台（新）/指标库/基本指标_查看",
+    "resourcesId": 20001235,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表平台（新）/指标库/基本指标_编辑",
+    "resourcesId": 20001234,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表平台（新）/模板管理",
+    "resourcesId": 20000520,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 20
+  },
+  {
+    "path": "报表平台（新）/报表配置",
+    "resourcesId": 20000519,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 30
+  },
+  {
+    "path": "报表平台（新）/报表配置/保存",
+    "resourcesId": 20001250,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表平台（新）/报表配置/目录新增/编辑",
+    "resourcesId": 20001342,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表平台（新）/报表配置/目录删除",
+    "resourcesId": 20001339,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表平台（新）/报表配置/目录设置",
+    "resourcesId": 20001344,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表平台（新）/报表配置/查看",
+    "resourcesId": 20001341,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表平台（新）/报表配置/集团查看",
+    "resourcesId": 20001275,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表平台（新）/报表配置/编辑",
+    "resourcesId": 20001251,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表平台（新）/报表中心",
+    "resourcesId": 20000521,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 40
+  },
+  {
+    "path": "报表平台（新）/报表中心/解锁特定报表",
+    "resourcesId": 20000774,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表平台（新）/报表中心/查看",
+    "resourcesId": 20001255,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表平台（新）/报表中心/锁定特定报表",
+    "resourcesId": 20000773,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表管理",
+    "resourcesId": 20000005,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 141
+  },
+  {
+    "path": "报表管理/能源报表",
+    "resourcesId": 20000018,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 50
+  },
+  {
+    "path": "报表管理/能源报表/新增模板",
+    "resourcesId": 20000456,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表管理/能源报表/导出报表",
+    "resourcesId": 20000459,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表管理/能源报表/删除模板",
+    "resourcesId": 20000458,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表管理/能源报表/编辑模板",
+    "resourcesId": 20000457,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "报表管理/能源报表配置",
+    "resourcesId": 20000332,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 70
+  },
+  {
+    "path": "报表管理/特定报表",
+    "resourcesId": 20000020,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 80
+  },
+  {
+    "path": "条码管理",
+    "resourcesId": 20000321,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 160
+  },
+  {
+    "path": "条码管理/模板中心",
+    "resourcesId": 20000322,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 10
+  },
+  {
+    "path": "条码管理/模板中心/查看",
+    "resourcesId": 20001220,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "条码管理/条码生成",
+    "resourcesId": 20000323,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 20
+  },
+  {
+    "path": "条码管理/条码生成/工单条码生成",
+    "resourcesId": 20001278,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "条码管理/条码打印",
+    "resourcesId": 20000324,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 30
+  },
+  {
+    "path": "告警管理",
+    "resourcesId": 20000007,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 180
+  },
+  {
+    "path": "告警管理/告警明细",
+    "resourcesId": 20000318,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 10
+  },
+  {
+    "path": "告警管理/告警明细/导出",
+    "resourcesId": 20000463,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "告警管理/工艺告警明细",
+    "resourcesId": 20000278,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 20
+  },
+  {
+    "path": "告警管理/告警规则",
+    "resourcesId": 20000317,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 30
+  },
+  {
+    "path": "告警管理/告警规则/设备下拉列表",
+    "resourcesId": 20001386,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "告警管理/告警规则/设备运行状态下拉列表",
+    "resourcesId": 20001387,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "告警管理/告警规则/删除规则",
+    "resourcesId": 20000462,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "告警管理/告警规则/新增规则",
+    "resourcesId": 20000460,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "告警管理/告警规则/编辑规则",
+    "resourcesId": 20000461,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "告警管理/工艺参数配置",
+    "resourcesId": 20000276,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 40
+  },
+  {
+    "path": "告警管理/工艺参数配置/导出",
+    "resourcesId": 20001345,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理",
+    "resourcesId": 20000003,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 200
+  },
+  {
+    "path": "生产管理/烤窖任务管理（酱香）",
+    "resourcesId": 20001109,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 1
+  },
+  {
+    "path": "生产管理/烤窖任务管理（酱香）/酱香烤窖任务下发计划确认",
+    "resourcesId": 20001121,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/烤窖任务管理（酱香）/酱香烤窖任务下发计划",
+    "resourcesId": 20001120,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/线边仓收发存",
+    "resourcesId": 20001114,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 1
+  },
+  {
+    "path": "生产管理/窖池投料明细",
+    "resourcesId": 20001115,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 1
+  },
+  {
+    "path": "生产管理/窖池投料明细/窖池投料明细修改",
+    "resourcesId": 20001116,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/看糟配料（浓香）",
+    "resourcesId": 20001181,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 1
+  },
+  {
+    "path": "生产管理/看糟配料（浓香）/是否存在记录(是否禁用后续工序)",
+    "resourcesId": 20001310,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/看糟配料（浓香）/看糟配料记录-提交",
+    "resourcesId": 20001302,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/看糟配料（浓香）/看糟配料记录撤回",
+    "resourcesId": 20001300,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/看糟配料（浓香）/看糟配料列表--实时显示",
+    "resourcesId": 20001311,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/看糟配料（浓香）/获取本轮感官记录",
+    "resourcesId": 20001305,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/看糟配料（浓香）/感官评分明细列表",
+    "resourcesId": 20001299,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/看糟配料（浓香）/获取上轮感官记录",
+    "resourcesId": 20001295,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/看糟配料（浓香）/粮糠曲投料",
+    "resourcesId": 20001309,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/看糟配料（浓香）/导出",
+    "resourcesId": 20001307,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/看糟配料（浓香）/看糟配料记录分页",
+    "resourcesId": 20001312,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业(自动化)",
+    "resourcesId": 20001199,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 4
+  },
+  {
+    "path": "生产管理/曲房日常作业(自动化)/翻堆",
+    "resourcesId": 20001206,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业(自动化)/刮曲",
+    "resourcesId": 20001201,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业(自动化)/结束监测",
+    "resourcesId": 20001205,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业(自动化)/作业记录",
+    "resourcesId": 20001203,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业(自动化)/合堆",
+    "resourcesId": 20001204,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业(自动化)/揭排",
+    "resourcesId": 20001202,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业(自动化)/揭回",
+    "resourcesId": 20001207,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业(自动化)/巡查",
+    "resourcesId": 20001200,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/烤窖任务管理",
+    "resourcesId": 20000996,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 11
+  },
+  {
+    "path": "生产管理/烤窖任务管理/烤窖任务下发计划确认",
+    "resourcesId": 20001118,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/烤窖任务管理/烤窖任务下发计划",
+    "resourcesId": 20001117,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/烤窖任务管理/禁用后续工序",
+    "resourcesId": 20001296,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/烤窖任务管理/只读工步修改权限",
+    "resourcesId": 20001183,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/烤窖任务管理/看糟配料",
+    "resourcesId": 20000997,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/发酵记录",
+    "resourcesId": 20001012,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 13
+  },
+  {
+    "path": "生产管理/曲坯加工",
+    "resourcesId": 20000974,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 15
+  },
+  {
+    "path": "生产管理/曲坯加工/工艺参数修改",
+    "resourcesId": 20001185,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/安曲",
+    "resourcesId": 20000973,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 16
+  },
+  {
+    "path": "生产管理/安曲/工艺参数修改",
+    "resourcesId": 20001184,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业",
+    "resourcesId": 20000975,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 17
+  },
+  {
+    "path": "生产管理/曲房日常作业/合堆",
+    "resourcesId": 20001189,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业/结束监测",
+    "resourcesId": 20001193,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业/巡查",
+    "resourcesId": 20001186,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业/翻堆",
+    "resourcesId": 20001190,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业/揭回",
+    "resourcesId": 20001187,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业/作业记录",
+    "resourcesId": 20001192,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业/揭排",
+    "resourcesId": 20001188,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲房日常作业/刮曲",
+    "resourcesId": 20001191,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲块入库",
+    "resourcesId": 20000977,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 18
+  },
+  {
+    "path": "生产管理/曲块入库/工艺参数修改",
+    "resourcesId": 20001194,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲粉加工",
+    "resourcesId": 20000976,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 19
+  },
+  {
+    "path": "生产管理/曲粉加工/工艺参数修改",
+    "resourcesId": 20001195,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/窖池温度计绑定",
+    "resourcesId": 20001113,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 610
+  },
+  {
+    "path": "生产管理/粮粉加工",
+    "resourcesId": 20000819,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 620
+  },
+  {
+    "path": "生产管理/粮粉备料计划发放",
+    "resourcesId": 20001182,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 622
+  },
+  {
+    "path": "生产管理/粮粉备料计划发放/查看",
+    "resourcesId": 20001338,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/粮粉备料计划发放/发放",
+    "resourcesId": 20001337,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/粮糠曲发放配送查看",
+    "resourcesId": 20001196,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 624
+  },
+  {
+    "path": "生产管理/粮糠曲发放配送查看/查看",
+    "resourcesId": 20001197,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/稻壳加工",
+    "resourcesId": 20000820,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 630
+  },
+  {
+    "path": "生产管理/备料计划",
+    "resourcesId": 20001119,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 650
+  },
+  {
+    "path": "生产管理/备料计划/撤回单据",
+    "resourcesId": 20001153,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/备料计划/查询",
+    "resourcesId": 20001317,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/备料计划/查询备料出库入库明细",
+    "resourcesId": 20001152,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/备料计划/关单",
+    "resourcesId": 20001154,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲坯任务",
+    "resourcesId": 20001141,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 660
+  },
+  {
+    "path": "生产管理/曲坯任务/获取生产任务号",
+    "resourcesId": 20001146,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲坯任务/添加生产任务",
+    "resourcesId": 20001147,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲坯任务/修改生产任务",
+    "resourcesId": 20001148,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲坯任务/获取生产任务分页",
+    "resourcesId": 20001151,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲坯任务/获取固定物料",
+    "resourcesId": 20001142,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲坯任务/下发工序任务",
+    "resourcesId": 20001149,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲坯任务/获取固定模板",
+    "resourcesId": 20001143,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲坯任务/获取工序下的工厂单元",
+    "resourcesId": 20001150,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲坯任务/获取曲坯生产线",
+    "resourcesId": 20001144,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "生产管理/曲坯任务/获取工艺配方单",
+    "resourcesId": 20001145,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂",
+    "resourcesId": 20000529,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 210
+  },
+  {
+    "path": "数字工厂/基础配置",
+    "resourcesId": 20000226,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 30
+  },
+  {
+    "path": "数字工厂/基础配置/弹窗配置",
+    "resourcesId": 20000227,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 10
+  },
+  {
+    "path": "数字工厂/基础配置/弹窗配置/新增弹窗",
+    "resourcesId": 20000410,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/弹窗配置/编辑弹窗",
+    "resourcesId": 20000411,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/弹窗配置/删除弹窗",
+    "resourcesId": 20000412,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/弹窗配置/查询",
+    "resourcesId": 20000409,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置",
+    "resourcesId": 20000228,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 20
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/页面分类删除",
+    "resourcesId": 20001404,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/编辑监测页面",
+    "resourcesId": 20000415,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/修改页面分类",
+    "resourcesId": 20001403,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/数字工厂展示相关接口",
+    "resourcesId": 20001291,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/页面分类配置",
+    "resourcesId": 20001398,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/复制监测页面",
+    "resourcesId": 20000417,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/配置监测页面",
+    "resourcesId": 20000416,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/编辑",
+    "resourcesId": 20001276,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/页面分类列表下拉/列表页",
+    "resourcesId": 20001405,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/新增监测",
+    "resourcesId": 20000414,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/删除监测页面",
+    "resourcesId": 20000418,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/新增页面分类",
+    "resourcesId": 20001401,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/批量设置页面分类",
+    "resourcesId": 20001406,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/查询",
+    "resourcesId": 20000413,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/页面分类详情",
+    "resourcesId": 20001397,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面配置/数字工厂配置相关接口",
+    "resourcesId": 20001290,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面排序配置",
+    "resourcesId": 20000229,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 30
+  },
+  {
+    "path": "数字工厂/基础配置/监测页面排序配置/配置监测页面排序",
+    "resourcesId": 20000419,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/基础配置/工作台配置",
+    "resourcesId": 20000232,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 40
+  },
+  {
+    "path": "数字工厂/酿造车间生产监控",
+    "resourcesId": 20000841,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 40
+  },
+  {
+    "path": "数字工厂/制曲车间生产监控",
+    "resourcesId": 20000842,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 50
+  },
+  {
+    "path": "数字工厂/酿造车间数字化看板",
+    "resourcesId": 20001122,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 60
+  },
+  {
+    "path": "数字工厂/自动化制曲车间生产监控",
+    "resourcesId": 20001198,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 70
+  },
+  {
+    "path": "数字工厂/自动化制曲车间生产监控/查看",
+    "resourcesId": 20001358,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/酿造车间生产监控（旧参观）",
+    "resourcesId": 20001132,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 104
+  },
+  {
+    "path": "数字工厂/酿造车间生产监控（旧参观）/查看窖池",
+    "resourcesId": 20001133,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/酿造车间生产监控（旧参观）/查看指标",
+    "resourcesId": 20001134,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/酿造车间生产监控（旧参观）/查看窖存量",
+    "resourcesId": 20001135,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/酿造车间生产监控（新参观）",
+    "resourcesId": 20001136,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 110
+  },
+  {
+    "path": "数字工厂/酿造车间生产监控（新参观）/获取窖池列表",
+    "resourcesId": 20001138,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "数字工厂/酿造车间生产监控（新参观）/获取工厂单元",
+    "resourcesId": 20001137,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "主数据",
+    "resourcesId": 20000002,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 230
+  },
+  {
+    "path": "主数据/班次班组 ",
+    "resourcesId": 20000547,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 10
+  },
+  {
+    "path": "主数据/班次班组 /生产日历",
+    "resourcesId": 20000796,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "主数据/班次班组 /班次",
+    "resourcesId": 20000172,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 10
+  },
+  {
+    "path": "主数据/班次班组 /班次/启用/停用班次",
+    "resourcesId": 20000408,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /班次/编辑班次制度",
+    "resourcesId": 20000405,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /班次/编辑班次",
+    "resourcesId": 20000406,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /班次/新增班次制度",
+    "resourcesId": 20000403,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /班次/新增班次",
+    "resourcesId": 20000404,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /班次/启用/停用班次制度",
+    "resourcesId": 20000407,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /班组",
+    "resourcesId": 20000173,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 20
+  },
+  {
+    "path": "主数据/班次班组 /班组/启用/停用总班组",
+    "resourcesId": 20000425,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /班组/启用/停用班组",
+    "resourcesId": 20000426,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /班组/新增总班组",
+    "resourcesId": 20000421,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /班组/编辑总班组",
+    "resourcesId": 20000423,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /班组/编辑班组",
+    "resourcesId": 20000424,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /班组/搜索",
+    "resourcesId": 20000420,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /班组/新增班组",
+    "resourcesId": 20000422,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /工厂模型",
+    "resourcesId": 20000178,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 30
+  },
+  {
+    "path": "主数据/班次班组 /工厂模型/保存配置",
+    "resourcesId": 20000427,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /工厂模型/班组制度编辑",
+    "resourcesId": 20000429,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /工厂模型/班次制度编辑",
+    "resourcesId": 20000428,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/班次班组 /排班",
+    "resourcesId": 20000175,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 40
+  },
+  {
+    "path": "主数据/物料",
+    "resourcesId": 20000548,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 20
+  },
+  {
+    "path": "主数据/物料/物料类别",
+    "resourcesId": 20000042,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 10
+  },
+  {
+    "path": "主数据/物料/物料类别/配方模板",
+    "resourcesId": 20000436,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料类别/色号管理",
+    "resourcesId": 20000435,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料类别/同步行业物料类别",
+    "resourcesId": 20000432,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料类别/编辑子类别",
+    "resourcesId": 20000433,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料类别/删除子类别",
+    "resourcesId": 20000438,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料类别/等级方案配置-删除",
+    "resourcesId": 20000443,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料类别/启用/停用子类别",
+    "resourcesId": 20000439,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料类别/搜索",
+    "resourcesId": 20000430,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料类别/等级方案配置-编辑",
+    "resourcesId": 20000442,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料类别/等级方案配置",
+    "resourcesId": 20000440,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料类别/等级方案",
+    "resourcesId": 20000434,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料类别/新增子类别",
+    "resourcesId": 20000431,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料类别/工艺模板",
+    "resourcesId": 20000437,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料类别/等级方案配置-新增",
+    "resourcesId": 20000441,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料信息",
+    "resourcesId": 20000045,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 20
+  },
+  {
+    "path": "主数据/物料/物料信息/启用/停用物料",
+    "resourcesId": 20000447,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料信息/物料组配置-编辑",
+    "resourcesId": 20000454,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料信息/物料组配置",
+    "resourcesId": 20000452,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料信息/编辑物料",
+    "resourcesId": 20000446,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料信息/搜索",
+    "resourcesId": 20000444,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料信息/同步物料至第三方系统",
+    "resourcesId": 20000451,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料信息/导出物料",
+    "resourcesId": 20000449,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料信息/物料组配置-新增",
+    "resourcesId": 20000453,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料信息/物料组配置-删除",
+    "resourcesId": 20000455,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料信息/导入物料",
+    "resourcesId": 20000448,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料信息/新增物料",
+    "resourcesId": 20000445,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/物料信息/批量打印二维码",
+    "resourcesId": 20000450,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "主数据/物料/工艺配方",
+    "resourcesId": 20000174,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 30
+  },
+  {
+    "path": "主数据/供应商",
+    "resourcesId": 20000106,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 40
+  },
+  {
+    "path": "主数据/单位",
+    "resourcesId": 20000244,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 70
+  },
+  {
+    "path": "主数据/目标维护",
+    "resourcesId": 20000300,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 80
+  },
+  {
+    "path": "主数据/工厂单元配置",
+    "resourcesId": 20000368,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 90
+  },
+  {
+    "path": "主数据/数据字典",
+    "resourcesId": 20000821,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 120
+  },
+  {
+    "path": "主数据/数据字典/字典类型（舍得）",
+    "resourcesId": 20000822,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 30
+  },
+  {
+    "path": "主数据/数据字典/字典配置（舍得）",
+    "resourcesId": 20000823,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 40
+  },
+  {
+    "path": "系统管理",
+    "resourcesId": 20000024,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 240
+  },
+  {
+    "path": "系统管理/根据org_id 检查企业的有效期",
+    "resourcesId": 20001385,
+    "resourcesType": 2,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "系统管理/数据权限",
+    "resourcesId": 20000795,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 3
+  },
+  {
+    "path": "系统管理/第三方数据同步",
+    "resourcesId": 20000305,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 10
+  },
+  {
+    "path": "系统管理/用户管理",
+    "resourcesId": 20000200,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 20
+  },
+  {
+    "path": "系统管理/用户管理/解锁用户",
+    "resourcesId": 20000399,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "系统管理/用户管理/用户角色管理",
+    "resourcesId": 20000394,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "系统管理/用户管理/删除用户",
+    "resourcesId": 20000395,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "系统管理/用户管理/新增用户",
+    "resourcesId": 20000392,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "系统管理/用户管理/邀请注册",
+    "resourcesId": 20000398,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "系统管理/用户管理/修改用户",
+    "resourcesId": 20000393,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "系统管理/用户管理/用户导入",
+    "resourcesId": 20000396,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "系统管理/用户管理/启用停用",
+    "resourcesId": 20001395,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "系统管理/用户管理/用户导出",
+    "resourcesId": 20000397,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "系统管理/角色管理",
+    "resourcesId": 20000201,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 30
+  },
+  {
+    "path": "系统管理/角色管理/修改角色",
+    "resourcesId": 20000401,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "系统管理/角色管理/新增角色",
+    "resourcesId": 20000400,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "系统管理/角色管理/删除角色",
+    "resourcesId": 20000402,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "系统管理/组织架构",
+    "resourcesId": 20000335,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 40
+  },
+  {
+    "path": "系统管理/安全设置",
+    "resourcesId": 20000306,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 50
+  },
+  {
+    "path": "系统管理/操作日志",
+    "resourcesId": 20000345,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 60
+  },
+  {
+    "path": "系统管理/APP配置",
+    "resourcesId": 20000509,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 70
+  },
+  {
+    "path": "系统管理/APP配置/排序",
+    "resourcesId": 20001273,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "系统管理/曲房温度记录弹窗",
+    "resourcesId": 20000805,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 130
+  },
+  {
+    "path": "质量管理",
+    "resourcesId": 20000000,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 300
+  },
+  {
+    "path": "质量管理/来料检验",
+    "resourcesId": 20000093,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 610
+  },
+  {
+    "path": "质量管理/来料检验/检验",
+    "resourcesId": 20000937,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/我的待办-来料检验-删除",
+    "resourcesId": 20000943,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/我发起的-来料检验-检验",
+    "resourcesId": 20000945,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/删除",
+    "resourcesId": 20000939,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/我发起的-来料检验-查看",
+    "resourcesId": 20000944,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/复检",
+    "resourcesId": 20000936,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/新增",
+    "resourcesId": 20000935,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/复制",
+    "resourcesId": 20000940,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/生成后置检验",
+    "resourcesId": 20001257,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/我的待办-来料检验-检验",
+    "resourcesId": 20000942,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/查看",
+    "resourcesId": 20000938,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/已办任务-来料检验-删除",
+    "resourcesId": 20000947,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/我的待办-来料检验-查看",
+    "resourcesId": 20000941,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/获取筛选项（模板、标准）",
+    "resourcesId": 20001263,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/来料检验/我发起的-来料检验-删除",
+    "resourcesId": 20000946,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验",
+    "resourcesId": 20000199,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 643
+  },
+  {
+    "path": "质量管理/产品检验/我的待办-产品检验-删除",
+    "resourcesId": 20000959,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/删除",
+    "resourcesId": 20000924,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/复制",
+    "resourcesId": 20000920,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/我发起的-产品检验-删除",
+    "resourcesId": 20000962,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/检验",
+    "resourcesId": 20000922,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/已办任务-产品检验-删除",
+    "resourcesId": 20000963,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/复检",
+    "resourcesId": 20000921,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/我的待办-产品检验-检验",
+    "resourcesId": 20000958,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/取样设备",
+    "resourcesId": 20001399,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/我发起的-产品检验-检验",
+    "resourcesId": 20000961,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/我的待办-产品检验-查看",
+    "resourcesId": 20000957,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/获取生产工单号列表",
+    "resourcesId": 20001261,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/查看",
+    "resourcesId": 20000923,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/新增",
+    "resourcesId": 20000919,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验/我发起的-产品检验-查看",
+    "resourcesId": 20000960,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验",
+    "resourcesId": 20000185,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 650
+  },
+  {
+    "path": "质量管理/过程检验/取样设备",
+    "resourcesId": 20001396,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/复制",
+    "resourcesId": 20000926,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/我发起的-过程检验-检验",
+    "resourcesId": 20000954,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/我的待办-过程检验-查看",
+    "resourcesId": 20000948,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/我的待办-过程检验-检验",
+    "resourcesId": 20000950,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/已办任务-过程检验-删除",
+    "resourcesId": 20000956,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/获取生产工单号列表",
+    "resourcesId": 20001259,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/查看 ",
+    "resourcesId": 20000928,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/我发起的-过程检验-删除",
+    "resourcesId": 20000955,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/我发起的-过程检验-复制",
+    "resourcesId": 20000953,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/我的待办-过程检验-复制",
+    "resourcesId": 20000949,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/我发起的-过程检验-查看",
+    "resourcesId": 20000952,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/我的待办-过程检验-删除",
+    "resourcesId": 20000951,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/新增",
+    "resourcesId": 20000925,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/检验 ",
+    "resourcesId": 20000927,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/过程检验/删除",
+    "resourcesId": 20000929,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验",
+    "resourcesId": 20000225,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 655
+  },
+  {
+    "path": "质量管理/仓库检验/我发起的-仓库检验-检验",
+    "resourcesId": 20000970,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/我发起的-仓库检验-删除",
+    "resourcesId": 20000971,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/删除",
+    "resourcesId": 20000934,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/我的待办-仓库检验-检验",
+    "resourcesId": 20000966,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/我发起的-仓库检验-复制",
+    "resourcesId": 20000969,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/已办任务-仓库检验-删除",
+    "resourcesId": 20000972,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/复制",
+    "resourcesId": 20000931,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/查看",
+    "resourcesId": 20000933,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/我的待办-仓库检验-复制",
+    "resourcesId": 20000965,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/我的待办-仓库检验-查看",
+    "resourcesId": 20000964,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/我发起的-仓库检验-查看",
+    "resourcesId": 20000968,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/我的待办-仓库检验-删除",
+    "resourcesId": 20000967,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/检验",
+    "resourcesId": 20000932,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/仓库检验/新增",
+    "resourcesId": 20000930,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "质量管理/产品检验标准",
+    "resourcesId": 20000316,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 665
+  },
+  {
+    "path": "质量管理/质量月度评审",
+    "resourcesId": 20001111,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 666
+  },
+  {
+    "path": "仓库管理",
+    "resourcesId": 20000288,
+    "resourcesType": 1,
+    "level": 1,
+    "sort": 510
+  },
+  {
+    "path": "仓库管理/判断拣货任务是否能撤回",
+    "resourcesId": 20001216,
+    "resourcesType": 2,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/根据物料获取仓库下的库位树",
+    "resourcesId": 20001213,
+    "resourcesType": 2,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/撤回拣货任务",
+    "resourcesId": 20001215,
+    "resourcesType": 2,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/获取撤回页面的拣货明细",
+    "resourcesId": 20001218,
+    "resourcesType": 2,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/批次判断权限",
+    "resourcesId": 20001214,
+    "resourcesType": 2,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/根据仓库和物料信息获取库位列表",
+    "resourcesId": 20001222,
+    "resourcesType": 2,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/财务配置查看详情（APP仓库用）",
+    "resourcesId": 20001160,
+    "resourcesType": 2,
+    "level": 2,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理",
+    "resourcesId": 20000798,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 1
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 关单",
+    "resourcesId": 20001064,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 撤回",
+    "resourcesId": 20001063,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 审核",
+    "resourcesId": 20001060,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 收货",
+    "resourcesId": 20001061,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 删除",
+    "resourcesId": 20001065,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 编辑",
+    "resourcesId": 20001059,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/入库 - 上架",
+    "resourcesId": 20001062,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/收货任务",
+    "resourcesId": 20000748,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "仓库管理/入库管理/收货任务/计算管道流量本次收货数",
+    "resourcesId": 20001284,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/收货任务/收货任务-新增快速收货",
+    "resourcesId": 20000749,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/入库管理/收货任务/收货任务 - 统计接口",
+    "resourcesId": 20001354,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理",
+    "resourcesId": 20000799,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 2
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 拣货",
+    "resourcesId": 20001068,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 审核",
+    "resourcesId": 20001067,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 删除",
+    "resourcesId": 20001073,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 关单",
+    "resourcesId": 20001071,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 发货",
+    "resourcesId": 20001069,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 编辑",
+    "resourcesId": 20001066,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 撤回",
+    "resourcesId": 20001070,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/出库 - 生成拣货",
+    "resourcesId": 20001072,
+    "resourcesType": 2,
+    "level": 3,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/拣货任务",
+    "resourcesId": 20000746,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 3
+  },
+  {
+    "path": "仓库管理/出库管理/拣货任务/增加拣货测试，不要动",
+    "resourcesId": 20001164,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/拣货任务/增加拣货",
+    "resourcesId": 20001163,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/拣货任务/校验客户 - 凯丰定制",
+    "resourcesId": 20001322,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/出库管理/拣货任务/拣货任务 - 统计接口",
+    "resourcesId": 20001356,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理",
+    "resourcesId": 20000800,
+    "resourcesType": 1,
+    "level": 2,
+    "sort": 3
+  },
+  {
+    "path": "仓库管理/库内管理/盘点任务",
+    "resourcesId": 20000989,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "仓库管理/库内管理/盘点任务/新增",
+    "resourcesId": 20000990,
+    "resourcesType": 2,
+    "level": 4,
+    "sort": 0
+  },
+  {
+    "path": "仓库管理/库内管理/库存查询",
+    "resourcesId": 20000801,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 1
+  },
+  {
+    "path": "仓库管理/库内管理/移库任务",
+    "resourcesId": 20000787,
+    "resourcesType": 1,
+    "level": 3,
+    "sort": 5
+  }
+]
