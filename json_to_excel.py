@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# 兼容性处理：如果python3不可用，尝试使用python
 """
 JSON转Excel工具
 功能：解析JSON数据，提取菜单信息并转换为Excel格式
@@ -125,7 +126,8 @@ class JsonToExcelConverter:
                     for user in result['data']:
                         page_users.append({
                             'nickName': user.get('nickName', ''),
-                            'userId': user.get('userId', '')
+                            'userId': user.get('userId', ''),
+                            'openUserId': user.get('openUserId', '')  # 新增：采集openUserId
                         })
                     
                     all_users.extend(page_users)
@@ -151,7 +153,7 @@ class JsonToExcelConverter:
         
         return all_users
     
-    def get_user_menu_permissions(self, user_id: str, base_url: str = "https://cloudsy.shede.com.cn",
+    def get_user_menu_permissions(self, user_id: str, open_user_id: str = None, base_url: str = "https://cloudsy.shede.com.cn",
                                 headers: Dict[str, str] = None, 
                                 request_data: Dict[str, Any] = None) -> Dict[str, Any]:
         """
@@ -207,7 +209,7 @@ class JsonToExcelConverter:
             "eid": "1d7d84a6f6b14d6d97f9c7a94813bb22",
             "operateUserId": user_id,  # 使用传入的用户ID
             "orgId": "1000879",
-            "uid": "77c6e33e1b7d4371aecc6477322ff759",
+            "uid": open_user_id if open_user_id else "77c6e33e1b7d4371aecc6477322ff759",  # 使用传入的openUserId
             "appVersion": "1.0"
         }
         
@@ -308,11 +310,12 @@ class JsonToExcelConverter:
         for i, user in enumerate(users, 1):
             user_id = user['userId']
             nick_name = user['nickName']
+            open_user_id = user.get('openUserId', '')  # 获取openUserId
             
-            print(f"📊 正在处理用户 {i}/{len(users)}: {nick_name} (ID: {user_id})")
+            print(f"📊 正在处理用户 {i}/{len(users)}: {nick_name} (ID: {user_id}, OpenID: {open_user_id})")
             
             # 获取用户菜单权限（内部已有300ms间隔）
-            menu_data = self.get_user_menu_permissions(user_id, headers=headers, request_data=menu_request_data)
+            menu_data = self.get_user_menu_permissions(user_id, open_user_id, headers=headers, request_data=menu_request_data)
             
             if menu_data:
                 # 解析菜单数据

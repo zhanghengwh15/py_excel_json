@@ -1,109 +1,93 @@
-# 快速开始指南
+# JSON转Excel工具 - 快速开始指南
 
-## 🚀 5分钟快速上手
+## 🚀 环境配置
 
-### 1. 安装依赖
-
+### 1. 创建虚拟环境（首次使用）
 ```bash
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. 功能选择
-
-#### 功能A：JSON菜单数据转Excel
-如果你有JSON格式的菜单数据需要转换为Excel：
-
+### 2. 使用便捷启动脚本
 ```bash
-# 使用示例数据测试
-python json_to_excel.py
+# 给启动脚本添加执行权限（首次使用）
+chmod +x run.sh
 
-# 使用自己的JSON文件
-python json_to_excel.py your_menu_data.json
+# 运行脚本
+./run.sh user_menu_export.py
 ```
 
-#### 功能B：批量导出用户菜单权限
-如果你需要批量获取用户列表和对应的菜单权限：
+## 📋 使用方法
 
+### 方法一：使用便捷启动脚本（推荐）
 ```bash
-# 第一步：配置参数（重要！）
-# 编辑 user_menu_export.py 文件，修改以下配置：
-# - token: 你的认证令牌
-# - userId: 你的用户ID
-# - orgId: 组织ID
-# - eid: 企业ID
-# - uid: 用户唯一标识
+# 运行用户菜单权限导出
+./run.sh user_menu_export.py
 
-# 第二步：运行导出
+# 运行JSON转Excel工具
+./run.sh json_to_excel.py
+
+# 运行批量用户权限导出
+./run.sh json_to_excel.py --batch-users
+```
+
+### 方法二：手动激活虚拟环境
+```bash
+# 激活虚拟环境
+source venv/bin/activate
+
+# 运行脚本
 python user_menu_export.py
+python json_to_excel.py
+python json_to_excel.py --batch-users
 ```
 
-## 📋 获取配置参数的方法
+## 🔧 配置说明
 
-### 步骤1：登录系统
-在浏览器中登录你的管理系统
+### 用户菜单权限导出配置
+在 `user_menu_export.py` 中修改以下参数：
+- `token`: 认证令牌
+- `userId`: 当前操作用户ID
+- `orgId`: 组织ID
+- `eid`: 企业ID
+- `uid`: 用户唯一标识
+- `poit-cloud-org`: 云组织标识
 
-### 步骤2：打开开发者工具
-- 按 F12 键
-- 或右键选择"检查"
+### JSON转Excel配置
+- 支持直接传入JSON文件路径
+- 支持传入JSON字符串
+- 支持批量用户权限导出
 
-### 步骤3：找到Network选项卡
-点击开发者工具中的"Network"（网络）选项卡
+## 📊 输出文件
 
-### 步骤4：执行用户管理操作
-在系统中执行一次用户管理相关的操作（如查看用户列表）
+- 生成的Excel文件保存在项目根目录
+- 文件名格式：`用户菜单权限_YYYYMMDDHHMM.xlsx`
+- 包含用户名称、菜单路径、菜单层级、类型等信息
 
-### 步骤5：查看请求详情
-在Network选项卡中找到用户相关的API请求，点击查看：
-- **Headers**选项卡中的请求头包含：token、userId、orgId等
-- **Payload**选项卡中的请求体包含：eid、uid等
+## ⚠️ 注意事项
 
-### 步骤6：复制参数
-将这些参数复制到 `user_menu_export.py` 文件的配置区域
+1. **网络连接**：确保能访问目标API服务器
+2. **认证信息**：使用前请更新配置文件中的认证参数
+3. **请求频率**：脚本已内置请求间隔，避免过于频繁的API调用
+4. **数据量**：大量用户数据导出可能需要较长时间
 
-## 📊 输出结果
+## 🛠️ 故障排除
 
-### JSON转Excel输出
-- 文件名：`yyyyMMddHHmm.xlsx`（如：202412011430.xlsx）
-- 内容：菜单名称、菜单层级、类型
+### 问题：ModuleNotFoundError
+```bash
+# 解决方案：重新安装依赖
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
-### 用户权限导出输出  
-- 文件名：`用户菜单权限_yyyyMMddHHmm.xlsx`
-- 内容：用户名称、菜单名称、菜单层级、类型
-- 特色：相同用户的行会自动合并
-- 分页：自动处理大量用户数据，支持分页获取
-- 间隔：用户列表请求间隔200ms，菜单权限请求间隔300ms，确保API稳定性
+### 问题：权限错误
+```bash
+# 解决方案：添加执行权限
+chmod +x run.sh
+```
 
-## ❓ 常见问题
-
-### Q: token过期了怎么办？
-A: 重新登录系统，按照上述步骤获取新的token
-
-### Q: 为什么获取不到用户数据？
-A: 检查以下几点：
-1. token是否正确且有效
-2. 用户ID是否有权限访问
-3. 网络连接是否正常
-4. 配置参数是否完整
-
-### Q: Excel文件在哪里？
-A: 生成的Excel文件保存在项目根目录中
-
-### Q: 可以修改输出格式吗？
-A: 可以编辑 `json_to_excel.py` 文件自定义输出格式
-
-## 🔧 故障排除
-
-如果遇到问题，请检查：
-
-1. **Python版本**：确保使用Python 3.7+
-2. **依赖安装**：运行 `pip list` 查看是否安装了所需依赖
-3. **网络连接**：确保能够访问API接口
-4. **权限配置**：确保用户有足够的权限访问数据
-5. **参数配置**：检查所有必填参数是否正确配置
-
-## 📞 获取帮助
-
-如需更多帮助，请查看：
-- `README.md` - 详细文档
-- 代码注释 - 详细的函数说明
-- 控制台输出 - 错误信息和调试信息 
+### 问题：网络连接失败
+- 检查网络连接
+- 验证API服务器地址
+- 确认认证信息正确性 
