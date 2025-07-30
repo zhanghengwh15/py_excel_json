@@ -31,7 +31,7 @@ class WineCellarDataGeneratorV2:
         return f"{year}-{batch}"
     
     def generate_random_date(self, start_year: int = 1990, end_year: int = 2025) -> str:
-        """生成随机日期（格式：2023/11/11），时间范围1990-2025年"""
+        """生成随机日期（格式：2023/11/11），时间范围1970-2025年"""
         start_date = datetime(start_year, 1, 1)
         end_date = datetime(end_year, 12, 31)
         time_between_dates = end_date - start_date
@@ -44,15 +44,26 @@ class WineCellarDataGeneratorV2:
         """生成第一个sheet的数据（投料耗用数据）"""
         data = []
         
-        for _ in range(self.data_count):
+        # 预生成所有可能的轮次组合
+        all_possible_batches = []
+        for year in range(1970, 2026):  # 1990-2025年
+            for batch in range(1, 200):   # 1-12轮
+                all_possible_batches.append(self.generate_batch_number(year, batch))
+        
+        # 由于数据量大于轮次组合数量，需要允许重复
+        # 先随机打乱所有轮次，然后循环使用
+        random.shuffle(all_possible_batches)
+        selected_batches = []
+        for i in range(self.data_count):
+            selected_batches.append(all_possible_batches[i % len(all_possible_batches)])
+        
+        for i in range(self.data_count):
             cellar_id = random.choice(self.cellar_ids)
-            year = random.randint(1990, 2025)  # 时间范围改为1990-2025
-            batch = random.randint(1, 12)
             
             record = {
                 '*窖池编号': self.generate_cellar_code(cellar_id),
                 '*投入日期': self.generate_random_date(),
-                '*轮次': self.generate_batch_number(year, batch),
+                '*轮次': selected_batches[i],
                 '*发酵期(天)': random.randint(30, 90),
                 '糖化粮(投入)': random.randint(100, 500),
                 '大曲(投入)': random.randint(50, 200),
@@ -70,10 +81,21 @@ class WineCellarDataGeneratorV2:
         """生成第二个sheet的数据（等级酒生产记录）"""
         data = []
         
-        for _ in range(self.data_count):
+        # 预生成所有可能的轮次组合
+        all_possible_batches = []
+        for year in range(1970, 2026):  # 1970-2025年
+            for batch in range(1, 200):   # 1-200轮
+                all_possible_batches.append(self.generate_batch_number(year, batch))
+        
+        # 由于数据量大于轮次组合数量，需要允许重复
+        # 先随机打乱所有轮次，然后循环使用
+        random.shuffle(all_possible_batches)
+        selected_batches = []
+        for i in range(self.data_count):
+            selected_batches.append(all_possible_batches[i % len(all_possible_batches)])
+        
+        for i in range(self.data_count):
             cellar_id = random.choice(self.cellar_ids)
-            year = random.randint(1990, 2025)  # 时间范围改为1990-2025
-            batch = random.randint(1, 12)
             
             # 生成原酒分类数据
             raw_wine_z1 = random.randint(10, 50)
@@ -90,7 +112,7 @@ class WineCellarDataGeneratorV2:
             record = {
                 '*窖池编号': self.generate_cellar_code(cellar_id),
                 '*日期': self.generate_random_date(),
-                '*轮次': self.generate_batch_number(year, batch),
+                '*轮次': selected_batches[i],
                 '原酒Z1': raw_wine_z1,
                 '原酒Z2': raw_wine_z2,
                 '原酒D1': raw_wine_d1,
@@ -110,8 +132,6 @@ class WineCellarDataGeneratorV2:
         
         for _ in range(self.data_count):
             cellar_id = random.choice(self.cellar_ids)
-            year = random.randint(1990, 2025)  # 时间范围改为1990-2025
-            batch = random.randint(1, 12)
             
             # 出池化验数据
             out_acidity = round(random.uniform(3.0, 8.0), 2)
