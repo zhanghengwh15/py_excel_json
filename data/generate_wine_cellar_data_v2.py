@@ -50,10 +50,10 @@ class WineCellarDataGeneratorV2:
             batch = random.randint(1, 12)
             
             record = {
-                '窖池编号': self.generate_cellar_code(cellar_id),
-                '投入日期': self.generate_random_date(),
-                '轮次': self.generate_batch_number(year, batch),
-                '发酵期(天)': random.randint(30, 90),
+                '*窖池编号': self.generate_cellar_code(cellar_id),
+                '*投入日期': self.generate_random_date(),
+                '*轮次': self.generate_batch_number(year, batch),
+                '*发酵期(天)': random.randint(30, 90),
                 '糖化粮(投入)': random.randint(100, 500),
                 '大曲(投入)': random.randint(50, 200),
                 '熟谷壳(投入)': random.randint(20, 100),
@@ -88,9 +88,9 @@ class WineCellarDataGeneratorV2:
             yield_rate = round(random.uniform(0.6, 0.9), 2)
             
             record = {
-                '窖池编号': self.generate_cellar_code(cellar_id),
-                '日期': self.generate_random_date(),
-                '轮次': self.generate_batch_number(year, batch),
+                '*窖池编号': self.generate_cellar_code(cellar_id),
+                '*日期': self.generate_random_date(),
+                '*轮次': self.generate_batch_number(year, batch),
                 '原酒Z1': raw_wine_z1,
                 '原酒Z2': raw_wine_z2,
                 '原酒D1': raw_wine_d1,
@@ -124,8 +124,8 @@ class WineCellarDataGeneratorV2:
             in_moisture = round(random.uniform(45.0, 65.0), 2)
             
             record = {
-                '窖池编号': self.generate_cellar_code(cellar_id),
-                '日期': self.generate_random_date(),
+                '*窖池编号': self.generate_cellar_code(cellar_id),
+                '*日期': self.generate_random_date(),
                 '出池化验数据_酸度': out_acidity,
                 '出池化验数据_淀粉': out_starch,
                 '出池化验数据_水分': out_moisture,
@@ -218,9 +218,9 @@ class WineCellarDataGeneratorV2:
                     worksheet['K1'] = '未折度出酒率 (%)'
                     
                     # 设置第二行子标题
-                    worksheet['A2'] = '窖池编号'
-                    worksheet['B2'] = '日期'
-                    worksheet['C2'] = '轮次'
+                    worksheet['A2'] = '*窖池编号'
+                    worksheet['B2'] = '*日期'
+                    worksheet['C2'] = '*轮次'
                     worksheet['D2'] = '原酒Z1'
                     worksheet['E2'] = '原酒Z2'
                     worksheet['F2'] = '原酒D1'
@@ -260,8 +260,8 @@ class WineCellarDataGeneratorV2:
                     worksheet['F1'] = '入池化验数据'  # 合并F1:H1
                     
                     # 设置第二行子标题
-                    worksheet['A2'] = '窖池编号'
-                    worksheet['B2'] = '日期'
+                    worksheet['A2'] = '*窖池编号'
+                    worksheet['B2'] = '*日期'
                     worksheet['C2'] = '酸度'
                     worksheet['D2'] = '淀粉'
                     worksheet['E2'] = '水分'
