@@ -11,6 +11,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import random
+import math
 import os
 from typing import List, Dict, Any
 
@@ -19,18 +20,18 @@ class WineCellarDataGeneratorV2:
     """酒鬼窖池历史数据生成器 V2"""
     
     def __init__(self):
-        self.cellar_ids = list(range(100, 111))  # 窖池ID: 100-110
-        self.data_count = 100000  # 每个sheet的数据量改为10万条
+        self.cellar_ids = [f"41.{i:03d}" for i in range(1, 12)]  # 窖池ID: 41.001-41.011
+        self.data_count = 100  # 每个sheet的数据量改为
         
-    def generate_cellar_code(self, cellar_id: int) -> str:
-        """生成窖池编码（格式：100.xlsx、101.xlsx等）"""
-        return f"{cellar_id}.xlsx"
+    def generate_cellar_code(self, cellar_id: str) -> str:
+        """生成窖池编码（格式：41.001、41.002等）"""
+        return cellar_id
     
     def generate_batch_number(self, year: int, batch: int) -> str:
         """生成轮次编号（格式：2025-1）"""
         return f"{year}-{batch}"
     
-    def generate_random_date(self, start_year: int = 1990, end_year: int = 2025) -> str:
+    def generate_random_date(self, start_year: int = 2000, end_year: int = 2025) -> str:
         """生成随机日期（格式：2023/11/11），时间范围1970-2025年"""
         start_date = datetime(start_year, 1, 1)
         end_date = datetime(end_year, 12, 31)
@@ -40,30 +41,50 @@ class WineCellarDataGeneratorV2:
         random_date = start_date + timedelta(days=random_number_of_days)
         return random_date.strftime('%Y/%m/%d')
     
+    def generate_random_date_by_batch(self, year: int, batch: int) -> str:
+        """根据轮次生成对应月份内的随机日期，batch 1-12 表示月份"""
+        # 确保月份合法
+        month = batch if 1 <= batch <= 12 else 1
+        # 月初
+        start_date = datetime(year, month, 1)
+        # 月末
+        if month == 12:
+            end_date = datetime(year + 1, 1, 1) - timedelta(days=1)
+        else:
+            end_date = datetime(year, month + 1, 1) - timedelta(days=1)
+        # 随机天数
+        days_between = (end_date - start_date).days
+        random_days = random.randint(0, days_between)
+        random_date = start_date + timedelta(days=random_days)
+        return random_date.strftime('%Y/%m/%d')
+    
     def generate_sheet1_data(self) -> List[Dict[str, Any]]:
         """生成第一个sheet的数据（投料耗用数据）"""
         data = []
         
-        # 预生成所有可能的轮次组合
-        all_possible_batches = []
-        for year in range(1970, 2026):  # 1990-2025年
-            for batch in range(1, 200):   # 1-12轮
-                all_possible_batches.append(self.generate_batch_number(year, batch))
+        # 生成与数据量对应的唯一(year, batch)组合列表
+        all_pairs = [(year, batch) for year in range(2000, 2026) for batch in range(1, 13)]
+        random.shuffle(all_pairs)
+        if self.data_count <= len(all_pairs):
+            selected_pairs = all_pairs[:self.data_count]
+        else:
+            repeats = math.ceil(self.data_count / len(all_pairs))
+            selected_pairs = (all_pairs * repeats)[:self.data_count]
         
-        # 由于数据量大于轮次组合数量，需要允许重复
-        # 先随机打乱所有轮次，然后循环使用
-        random.shuffle(all_possible_batches)
-        selected_batches = []
-        for i in range(self.data_count):
-            selected_batches.append(all_possible_batches[i % len(all_possible_batches)])
+        # 为每个(year, batch)组合分配窖池号，确保sheet1和sheet2的一致性
+        cellar_batch_combinations = []
+        for i, (year, batch) in enumerate(selected_pairs):
+            cellar_id = self.cellar_ids[i % len(self.cellar_ids)]
+            cellar_batch_combinations.append((cellar_id, year, batch))
         
-        for i in range(self.data_count):
-            cellar_id = random.choice(self.cellar_ids)
-            
+        # 保存供sheet2使用
+        self.cellar_batch_combinations = cellar_batch_combinations
+        
+        for i, (cellar_id, year, batch) in enumerate(cellar_batch_combinations):
             record = {
                 '*窖池编号': self.generate_cellar_code(cellar_id),
-                '*投入日期': self.generate_random_date(),
-                '*轮次': selected_batches[i],
+                '*投入日期': self.generate_random_date_by_batch(year, batch),
+                '*轮次': self.generate_batch_number(year, batch),
                 '*发酵期(天)': random.randint(30, 90),
                 '糖化粮(投入)': random.randint(100, 500),
                 '大曲(投入)': random.randint(50, 200),
@@ -81,22 +102,18 @@ class WineCellarDataGeneratorV2:
         """生成第二个sheet的数据（等级酒生产记录）"""
         data = []
         
-        # 预生成所有可能的轮次组合
-        all_possible_batches = []
-        for year in range(1970, 2026):  # 1970-2025年
-            for batch in range(1, 200):   # 1-200轮
-                all_possible_batches.append(self.generate_batch_number(year, batch))
+        # 使用与sheet1相同的窖池号+轮次组合
+        if not hasattr(self, 'cellar_batch_combinations'):
+            raise ValueError("Cellar-batch combinations for sheet1 not generated yet")
+        combinations_list = self.cellar_batch_combinations.copy()
+        # 确保使用相同的组合，不重复，不遗漏
+        if self.data_count <= len(combinations_list):
+            selected_combinations = combinations_list[:self.data_count]
+        else:
+            repeats = math.ceil(self.data_count / len(combinations_list))
+            selected_combinations = (combinations_list * repeats)[:self.data_count]
         
-        # 由于数据量大于轮次组合数量，需要允许重复
-        # 先随机打乱所有轮次，然后循环使用
-        random.shuffle(all_possible_batches)
-        selected_batches = []
-        for i in range(self.data_count):
-            selected_batches.append(all_possible_batches[i % len(all_possible_batches)])
-        
-        for i in range(self.data_count):
-            cellar_id = random.choice(self.cellar_ids)
-            
+        for i, (cellar_id, year, batch) in enumerate(selected_combinations):
             # 生成原酒分类数据
             raw_wine_z1 = random.randint(10, 50)
             raw_wine_z2 = random.randint(10, 50)
@@ -111,8 +128,8 @@ class WineCellarDataGeneratorV2:
             
             record = {
                 '*窖池编号': self.generate_cellar_code(cellar_id),
-                '*日期': self.generate_random_date(),
-                '*轮次': selected_batches[i],
+                '*日期': self.generate_random_date_by_batch(year, batch),
+                '*轮次': self.generate_batch_number(year, batch),
                 '原酒Z1': raw_wine_z1,
                 '原酒Z2': raw_wine_z2,
                 '原酒D1': raw_wine_d1,
