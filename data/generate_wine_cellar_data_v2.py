@@ -85,14 +85,9 @@ class WineCellarDataGeneratorV2:
                 '*窖池编号': self.generate_cellar_code(cellar_id),
                 '*投入日期': self.generate_random_date_by_batch(year, batch),
                 '*轮次': self.generate_batch_number(year, batch),
-                '*发酵期(天)': random.randint(30, 90),
-                '糖化粮(投入)': random.randint(100, 500),
-                '大曲(投入)': random.randint(50, 200),
-                '熟谷壳(投入)': random.randint(20, 100),
-                '状态': random.choice(['投入', '耗用', '发酵中']),
-                '糖化粮(耗用)': random.randint(80, 450),
-                '大曲(耗用)': random.randint(40, 180),
-                '熟谷壳(耗用)': random.randint(15, 90)
+                '糖化粮': random.randint(100, 500),
+                '大曲': random.randint(50, 200),
+                '熟谷壳': random.randint(20, 100)
             }
             data.append(record)
         
@@ -229,6 +224,8 @@ class WineCellarDataGeneratorV2:
                     elif '编号' in column:
                         worksheet.column_dimensions[col_letter].width = 12
                     elif '率' in column or '期' in column:
+                        worksheet.column_dimensions[col_letter].width = 12
+                    elif '糖化粮' in column or '大曲' in column or '熟谷壳' in column:
                         worksheet.column_dimensions[col_letter].width = 12
                     else:
                         worksheet.column_dimensions[col_letter].width = 10
